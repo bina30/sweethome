@@ -1,0 +1,858 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>home sweet home</title>
+    <style>
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+   
+    margin-right: 24px;
+}
+        .social {color: white;}
+        .social .col-lg-6{ font-size: 12px;}
+        .social a{color: white; text-decoration: none;}
+        .social .sfa{color: white;}
+        .rgtsocial{text-align: right;}
+        .logotxt1{color: #00167c;}
+       
+        .bgclr{background-color: #00167c;}
+
+       
+       .nav-link{ color: black;}
+
+
+  .jumboslider{
+  background-image: url(images/bg_img_3.jpg);
+ background-position:top;
+background-repeat: no-repeat;
+height: auto;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+
+
+
+
+
+
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+h2 {
+	color:white;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+}
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: white;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+}
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel .item {
+	color:white;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color:white;
+}
+.carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+    color:white;
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+
+
+footer a{color:white; text-decoration: none;}
+
+
+
+.navbar-nav.ml-auto.text-capitalize {
+    float: right;
+}
+
+
+
+.hovrbdr:hover {
+  border:1px solid blue; border-top: none;
+}
+.jumboslider p { font-size: 16px;}
+.carousel .carousel-control{ height: 106px;} 
+
+.bg_hero{ padding-top: 130px; padding-bottom: 130px;}
+.bg_hero h2{font-size:60px; margin: 30px 0 30px; }
+
+@media only screen and (max-width: 1200px) {
+
+  
+.navbar-nav.ml-auto.text-capitalize {
+    float: none;
+   
+} 
+
+}
+@media screen and (max-width: 992px) {
+      .bg_hero{ padding-top: 30px; padding-bottom: 30px;}
+      .bg_hero h2{ font-size: 25px;}
+
+     
+}
+
+
+
+        @media only screen and (max-width: 600px) {
+ 
+  .social .col-lg-6{ text-align: center;}
+  
+ 
+}
+       
+      
+      </style>
+  </head>
+  <body>
+    <section  class="social bgclr">
+       <div class="container  ">
+          <div class="row py-3">
+      
+         
+            <div class="col-lg-6">Call today to schedule an inspection: <span ><i class="fa fa-phone" aria-hidden="true"></i>
+            </span >  <a href="tel:+ 354-5405"> (262) 354-5405</a></div>
+
+
+            <div class="col-lg-6 rgtsocial"><a href="#"><i class="fa fa-facebook px-2 " aria-hidden="true"></i>
+            </a><a href="#"><i class="fa fa-twitter sfa px-2 " aria-hidden="true "></i>
+            </a><a href="#"> <i class="fa fa-instagram sfa px-2 " aria-hidden="true "></i>
+            </a><a href="#"><i class="fa fa-google-plus px-2 " aria-hidden="true"></i>
+            </i>
+            </a><a href="#"><i class="fa fa-pinterest-p sfa px-2 " aria-hidden="true"></i>
+            </a></div></div>
+          </div>
+        
+        </section>
+
+
+        <section>
+    
+          <div class="container">
+        <div class="row py-3">
+          <div class="col-lg-2" >   <a class="navbar-brand" href="#">Navbar</a></div>
+          <div class="col-lg-10"> 
+  
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav  ml-auto text-capitalize  text-dark">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown text-dark">
+                  <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 about us
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="blog.html">blog</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="service.html">service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="our_inspectors.html">our inspectors</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="pricing.html">pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="testominal.html">testimonials</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallary.html">galary</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactus.html">contact us</a>
+                </li>
+               
+              </ul>
+              
+            </div>
+
+
+
+          </nav></div>
+         
+       
+       
+        </div>
+        </div>
+    
+      </section>
+
+
+      <section><div class="bg_hero"  style="background-image: url(images/bg_img_hero.jpg);
+        background-position: center; 
+        background-repeat: no-repeat;
+        background-size: cover; ">
+          <div class="container text-center text-white bg_hero text-capitalize "  >
+            <h2 class="py-3" style=" font-size: 60px px-5">Protect Your Home with Home Inspection Company</h2>
+            <p> <small>Identifying the problems before they become yours</small></p>
+            <button type="button" class="btn-lg  text-capitalize bg-white mr-4 my-3" data-toggle="modal" data-target="#exampleModal"
+ data-whatever="@fat" style="color: #00167c;border: none; ">request an inspection</button>
+
+ <div class="modal fade text-dark" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content ">
+      <div class="modal-header mx-auto border-0">
+        <h5 class="modal-title display-4 " id="exampleModalLabel" >Contact Us</h5>
+
+       
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      
+      </div>
+
+      <div class="modal-body">
+
+        <p>If you have any questions concerning our services, please fill out the contact form below.</p>
+        <form >
+          
+          <div class="form-group ">
+           
+            <input type="text" class="form-control rounded-0" id="recipient-name" placeholder="name*" required>
+          </div>
+          <div class="form-group">
+          
+            <input type="email" class="form-control rounded-0" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" required >
+
+           
+
+          </div>
+          <div class="form-group">
+          
+            <textarea class="form-control rounded-0"  id="message-text" placeholder="message*"  required></textarea>
+          </div>
+          
+        </form>
+      </div>
+      <div class="form-group mx-auto"> 
+        <div class="col-sm-offset-3 col-sm-6 col-sm-offset-3"> 
+        <button type="submit" id="submit" name="submit" class="btn-lg btn-primary rounded-0 border-0"  style="background-color: #00167c;">SUBMIT</button> 
+        </div> 
+        </div> 
+    </div>
+  </div>
+</div>
+ <a href="tel:+ 262-365-5405"  class="text-white btn  btn-lg  mr-3 mb-3 text-white"   style="background-color:#00167c; text-decoration: none;">call 
+      now 262-365-5405</a> 
+    
+
+            
+          </div>
+        </div></section>
+        
+      
+    
+
+
+
+       
+
+
+
+
+<section class="bgclr">
+<div class="container pb-5  text-center">
+  <div class="rows text-white ">
+<h3 class="py-2" >
+
+ <strong>Welcome</strong>  to HomeControl
+  </h3>
+  <hr style="width:50px; background: white; height: 3px; ">
+<p  class="py-2" > 
+
+  As a professional home inspection company in the Kingston area, HomeControl 
+   Home Inspection is dedicated to providing the highest quality inspection services
+    available. Buying a home is a major investment and we take pride in helping clients with one of the most important decisions they’ll ever make.
+</p>
+   
+  <p class="py-2" >
+  A thorough home inspection will help keep you safe and protect you from costly repairs. As one of Kingslin area most trusted inspection companies, we inspect every home as if we were buying it for ourselves. All our inspectors are licensed and insured with a track record of honesty and integrity. Easy to read reports are delivered within 24 hours and will provide you with the knowledge you need to make an informed purchasing decision.
+  </p>
+  </div>
+</div>
+
+        </section>
+        
+
+
+<section style="background-color: #f0f0f0;">
+  <div class="container text-left py-5"  >
+    <div class="px-5"><h1>
+      Why choose us
+         </h1>
+       <p>    for your home inspection needs</p>
+       <hr  style=" max-width: 100%;
+       width: 50px;
+       border-top-width: 2px;
+       border-top-style: solid;
+       border-top-color: #00167c;
+       margin: 0;
+       display: inline-block;">
+      </div>
+  
+
+
+  <div class="container">
+    <div class="row my-5">
+      <div class=" col-sm-6 mb-5"><div class="media">
+        <img class="d-flex mr-3" src="images/lftimg_1.png" alt="Generic placeholder image">
+        <div class="media-body pl-4">
+      <p ><a href="#" style="text-decoration: none; font-size: 22px;" class="text-dark mdahvr">Qualified & Insured</a></p>
+          <p>We are heavily on experien
+            ce mixed with the latest and most comprehensive information in home inspection industry.</p>
+        </div>
+      </div></div>
+      <div class="col-sm-6 "><div class="media">
+        <img class="d-flex mr-3" src="images/lftimg_2.png" alt="Generic placeholder image">
+        <div class="media-body pl-4">
+          <p><a href="#" style="text-decoration: none; font-size: 22px;" class="text-dark">Buy Back Guarantee</a></p>
+          <p>We are heavily on experien
+            ce mixed with the latest and most comprehensive information in home inspection industry.</p>
+        </div>
+      </div></div>
+    </div>
+    <div class="row my-5">
+      <div class=" col-sm-6 mb-5"><div class="media">
+
+        <img class="d-flex mr-3" src="images/lftimg_3.png" alt="Generic placeholder image">
+        <div class="media-body pl-4">
+          <p><a href="#" style="text-decoration: none; font-size: 22px;" class="text-dark">Experienced</a></p>
+          <p>We are heavily on experien
+            ce mixed with the latest and most comprehensive information in home inspection industry.</p>
+        </div>
+      </div></div>
+      <div class="col-sm-6 "><div class="media">
+        <img class="d-flex mr-3" src="images/lftimg_4.png" alt="Generic placeholder image">
+        <div class="media-body pl-4">
+          <p><a href="#" style="text-decoration: none; font-size: 22px;" class="text-dark">Thorough Home Inspections</a></p>
+          <p>We are heavily on experien
+            ce mixed with the latest and most comprehensive information in home inspection industry.</p>
+        </div>
+      </div></div>
+    </div>
+  </div>
+
+</div>
+ 
+</section>
+       
+
+<section>
+  <div class="container-fluid  " >
+  
+  <div class="row " style="font-size: 34px;">
+    
+    <div class="col-md-4 jumbotron jumbotron-fluid mb-0 "  style=" background-image: url(images/bg_img2.jpg); background-size: cover;
+    background-repeat: no-repeat; height: 167px; border-radius: 0px;"> </div>
+    <div class="col-md-4 text-white bgclr"  style="padding: 0px; display: flex; align-items: center; justify-content: center;">
+      <p class="pl-4" ><strong>Request</strong> an Inspection Today, Call </p></div>
+    <div class="col-md-4 text-white bgclr pb-5"  style="padding: 0px; display: flex; align-items: center;justify-content: center; " >
+      <a href="tel:+ 262-365-5405"  class="text-white btn  btn-lg  mr-3 mb-3 text-white text-decoration-none"   style="background-color:#00167c; border: 2px solid white;">call 
+        now 262-365-5405</a></div>
+  </div>
+ 
+</div>
+ 
+</section>
+
+
+
+
+<section style="background-color: #f0f0f0;">
+  <div class="container py-5" >
+  
+    <div class="row">
+  <div class=" card-deck">
+    <div class="card  text-center " style="display: inline-block; background-color: #f0f0f0; border: none;">
+      <img src="images/mt-1446-home-img-2.jpg" alt="Card image cap"  class="img-fluid ">
+      <div class="card-body text-left hovrbdr bg-white" >
+        <h5 class="card-title" style="font-size: 24px;">Home Inspections</h5>
+        <p class="card-text">We provide thorough home inspections that meet and exceed the industry standards.Your home is important? and we make it the highest priority.</p>
+        <a href="readmore.html"><button type="button" class="btn btn-lg bgclr  text-white mb-3 px-4" style="background-color: #00167c;  ">READ MORE</button></a> 
+      </div>
+    </div>
+    <div class="card  text-center " style="display: inline-block; background-color: #f0f0f0; border: none;">
+      <img  src="images/mt-1446-home-img-3.jpg"  class="img-fluid " alt="Card image cap">
+      <div class="card-body text-left  hovrbdr  bg-white">
+        <h5 class="card-title" style="font-size: 24px;">Commercial Inspections</h5>
+        <p class="card-text">Before buying or using a commercial building, it is important that all units and the building overall are checked for possible damages.  </p>
+        <a href="readmore.html"><button type="button" class="btn btn-lg bgclr  text-white mb-3 px-4" style="background-color: #00167c;  ">READ MORE</button></a> 
+      </div>
+    </div>
+    <div class="card  text-center " style="display: inline-block; background-color: #f0f0f0; border: none;">
+      <img src="images/mt-1446-home-img-4.jpg"  class="img-fluid "  alt="Card image cap">
+      <div class="card-body text-left  hovrbdr  bg-white" >
+        <h5 class="card-title" style="font-size: 24px;">Maintenance Inspections</h5>
+        <p class="card-text">The work on your home does not stop after the home inspections. Order annual maintenance inspections help keep your home in shape.</p>
+       <a href="readmore.html"><button type="button" class="btn btn-lg bgclr  text-white mb-3 px-4" style="background-color: #00167c;  ">READ MORE</button></a> 
+      </div>
+    </div>
+  </div>
+  <a href="#" class="py-4 text-dark text-decoration-none" > view all services <i style="font-size:16px" class="fa">&#xf101;</i></a>
+</div>
+</div>
+
+
+</section>
+
+
+
+<section class="container-fluid "   data-widget="block" data-spacing="lama"  style="background-image: url(images/bg_img_3.jpg);
+background-position: center; background-attachment: fixed; 
+background-repeat: no-repeat;background-size:cover"> <div  >
+  
+      <div class="container text-white text-capitalize for-about">
+        <div class="row ">
+          <div class="col-lg-6 col-center mx-auto ">
+            <h2>Testimonials</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Carousel indicators -->
+              <ol class="carousel-indicators ">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>   
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner">
+                <div class="item carousel-item active">
+                  <div class="img-box"><img src="images/author-image1.jpg" alt=""  class="img-fluid "></div>
+    
+                  <p class="testimonial" >Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec
+                      turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. 
+                      Suspendisse varius nibh non aliquet.</p>
+                  <p class="overview"><b>Paula Wilson</b></p>
+                </div>
+                <div class="item carousel-item">
+                  <div class="img-box"><img src="images/author-image2.jpg" alt=""  class="img-fluid "></div>
+                  <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                  <p class="overview"><b>Antonio Moreno</b></p>
+                </div>
+                <div class="item carousel-item">
+                  <div class="img-box"><img src="images/author-image3.jpg" alt=""  class="img-fluid "></div>
+                  <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+                  <p class="overview"><b>Michael Holz</b></p>
+                </div>
+              </div>
+              <!-- Carousel controls -->
+              <a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <i class="fa fa-angle-left"></i>
+              </a>
+              <a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+                <i class="fa fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+  </div></section>
+
+
+
+  
+
+
+
+
+
+<section>
+<div class="container py-5">
+  <div class="row">
+
+<div class="col-lg-6" style="padding: 0px 50px;" ><h3 class="display-4"><strong>The Latest News</strong><br>
+  from Our Blog</h3>
+
+
+  <hr style="max-width:100%;width:50px;border-top-width: 2px;
+  border-top-style: solid;
+  border-top-color: #00167c;margin: 0;
+display: inline-block;">
+
+
+
+
+
+
+<p>
+  <h4  data-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample" class="py-3 " >
+
+    <span class="glyphicon px-3">&#x2212;</span> ruffing  vs aluminum roofing
+  </h4>
+ 
+</p>
+<div class="collapse" id="collapseExample1">
+  <div>
+    <p>
+
+      Metal is rapidly becoming the preferred roofing material. It is lighter and more 
+      durable than shingles and requires less maintenance. So even with a higher up-front
+       cost, the return is quick. In the long run, you save more with a metal roof.
+    </p>
+       <p>
+      
+      The next question might be: what metal should you use, aluminum or steel?
+      </p>
+   
+  </div>
+</div>
+
+
+
+
+<p>
+  <h4  data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample" class="py-3 ">
+    <span class="glyphicon px-3">&#x2212;</span>  Vinyl or Linoleum , what is better?
+  </h4>
+ 
+</p>
+<div class="collapse" id="collapseExample2">
+  <div>
+   <p>Flooring options abound—even the options have options. But if you’re looking for 
+     inexpensive flooring, especially in a potentially wet area such as a kitchen or bathroom, 
+     you’re probably going to consider linoleum and vinyl. Although the terms are often used interchangeably, 
+     these materials are not the same. The mention of either sometimes conjures up images of second-rate products, 
+     but both have their place. Linoleum and vinyl fall into the category of resilient flooring.</p>
+  </div>
+
+</div>
+<p>
+  <h4  data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample" class="py-3 "> 
+    <span class="glyphicon px-3">&#x2212;</span>  Night storage heaters
+  </h4>
+ 
+</p>
+<div class="collapse" id="collapseExample3">
+  <div >
+    <p>
+
+      The most cost-effective form of electric central heating uses night storage heaters. 
+      These heaters use electricity supplied at a cheaper ‘night-time’ rate to heat up special
+       heat-retaining bricks. These bricks then heat your home around the clock using the heat stored in the bricks.
+      
+      Night storage heaters give out heat slowly and are designed to keep warm for the whole of the following day.
+      </p>
+  </div>
+</div>
+
+</div>
+<div class="col-lg-6 my-3"><img src="images/mt-1446-home-img-5.jpg" class="img-fluid ."></div>
+
+  </div>
+
+
+
+</div>
+
+
+
+
+</section>
+
+
+
+
+<section  style="background-color: #f0f0f0; " class="py-5"> 
+<div class="container py-5 ">
+<div class="row text-center">
+  <p class=" text-center text-dark" style="font-size: 34px;">
+
+   <strong>Contact us today</strong> <span style="font-weight: 300;">for professional home inspection services</span> 
+  </p>
+
+
+  <div class="col-lg-4">
+
+  <h3 style="color: #00167c;" class="pb-3">Address</h3>  
+    
+     
+    
+    <p>Goldfield Rd. 7685 Rock Maple
+    <br>
+    Honolulu, HI 96815</p>
+    </div>
+  <div class="col-lg-4">
+
+    <h3 class="pb-3" style="color: #00167c;"> Phone</h3>
+    
+     <p><a href="tel:+ 0234 567 89" class="text-dark " style="text-decoration:none">+ 0234 567 89</a>
+       <br>
+    
+       <a href="tel:+ 0234 567 89" class="text-dark" style="text-decoration:none">+ 0234 567 89</a></p>
+    
+    
+    </div>
+  <div class="col-lg-4" >
+
+   <h3 style="color: #00167c;" class="pb-3"> E-mail</h3>
+    
+     <p><a href="mailto:info@corporateevents.com"  class="text-dark " style="text-decoration:none">info@corporateevents.com</a>
+    <br>
+    <a href="mailto:sales@corporateevents.com"  class="text-dark " style="text-decoration:none">sales@corporateevents.com</a>
+      </p>
+    
+    
+    </div>
+</div>
+</div>
+
+</section>
+
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small  py-5 " style="background-color: black; color:white ">
+
+  <!-- Footer Links -->
+  <div class="container  text-md-left">
+
+    <!-- Grid row -->
+
+      <!-- Grid column -->
+    <div class="row   py-5">
+      <div class="col-md-4 mx-auto py-5 ">
+
+        <!-- Content -->
+        <h5 class="font-weight-bold text-uppercase  mb-4">About us</h5>
+        <p style=" color: #828282;">We are a world class company supplying tailored security 
+          solutions to homes, businesses and public sector organizations throughout the USA.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix  d-md-none">
+      <div class="col-4  d-flex text-left py-5" >
+      <!-- Grid column -->
+      <div class="col-2-mx-auto ">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">menu</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" >home</a>
+          </li>
+          <li>
+            <a href="#!">about us</a>
+          </li>
+          <li>
+            <a href="#!">service</a>
+          </li>
+          <li>
+            <a href="#!">our inspectors</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix  d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-2 mx-auto">
+
+        <!-- Links -->
+       
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!">pricing</a>
+          </li>
+          <li>
+            <a href="#!">testimonial</a>
+          </li>
+          <li>
+            <a href="#!">galary</a>
+          </li>
+          <li>
+            <a href="#!">contact us</a>
+          </li>
+        </ul>
+
+      </div>
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix  d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto pb-5">
+
+        <!-- Links -->
+        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Receive news right to your inbox</h5>
+
+        <form>
+          <div class="form-group">
+          
+            <input   type="email" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email hear *">
+            
+          </div>
+         
+          <div class="form-group form-check">
+           
+          </div>
+          <button type="submit" class="btn btn-primary text-white" style="background-color:  #00167c ; border: none; padding: 16px 24px;">subscribe</button>
+        </form>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <hr  style="width: 100%;
+
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #828282;
+  margin: 0;
+  display: inline-block;">
+
+  
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-12"></div>
+    <!-- Copyright -->
+    <div class="footer-copyright  py-3  px-5 mx-3" style=" color: #828282;">Copyright © 2018 MotoCMS Builder. All Rights Reserved.Designed by 
+      <a  href="https://mdbootstrap.com/"  style=" color: #828282;text-decoration: none;">MotoCMS.com</a>
+    </div>
+    <!-- Copyright --></div>
+  </div>
+
+
+</footer>
+<!-- Footer -->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script>
+      function myFunction() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+      
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+         
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+         
+          moreText.style.display = "inline";
+        }
+      }
+      </script>
+      
+  </body>
+</html>
